@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #ffffff ;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #015c92;
+    font-size: larger;
+    font-weight: bold;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+.container{
+    padding: 70px 150px;
+}
+
+.intro {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.intro img {
+    width: 350px;
+    border-radius: 50px;
+    background-image: url("image/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    height: 320px;
+}
+
+#Home h1 {
+    font-size: xx-large;
+}
+
+#Home p {
+    font-size: large;
+    max-width: 940px;
+}
+
+#Blog h2 {
+    color: #015c92;
+    font-size: 25px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+}
+
+.blogs {
+  width: 300px;
+  height: 292px;
+  padding: 20px;
+  border: 1px solid #ffffff; /* Membuat kotak dengan border */
+  background-color: #94B0B7; /* Warna latar belakang kotak */ 
+  border-radius: 10px;
+  text-align: center;
+}
+
+.blogs img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blogs a {
+    text-decoration: none;
+}
+
+.blogs h3 {
+   color: black;
+   font-size: 17px;
+}
+
+.blogs h4{
+    color: #015c92; 
+    font-size: small;
+}
+
+.blogs p {
+    font-size: small;
+    color: #015c92;
+}
+
+.cta-button {
+    display: inline-block;
+    height: 30px;
+    background-color: #015c92;
+    color: #fff;
+    padding: 7px 40px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: normal;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+footer {
+    background-color: #94B0B7;
+    color: #015c92;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #015c92;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contact img {
+    width: 60px;
+    height: auto;
+}
+

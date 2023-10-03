@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background-color: #ffffff ;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #015c92;
+    font-size: larger;
+    font-weight: bold;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+#about{
+    padding: 70px 150px;
+}
+
+.abouts h1 {
+    font-size: x-large;
+    color: #015c92;
+}
+
+.box {
+    background-color: #94B0B7;
+    max-width: 100%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: black;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+      padding: 10px; /* Mengurangi padding untuk layar kecil */
+    }
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+    overflow: auto;
+}
+
+.music {
+    display: flex;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: #015c92;
+    border-radius: 10px;
+    align-items: center;
+    border-style: groove;
+    border-color: rgb(254, 238, 218);
+}
+
+button {
+    margin-left: 50px;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(112, 166, 241);
+    border-radius: 5px;
+}
+
+button a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.music img{
+    width: 47px;
+    height: auto;
+}
+
+#content {
+   margin-left: 20px;
+}
+
+#content a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+}
+
+.movies {
+    overflow-x: auto;
+}
+
+.movies img{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+
+.film {
+    display: flex;
+    align-items: center;
+    background-color: #015c92;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(254, 238, 218);
+}
+
+.film a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content {
+    margin-left: 20px;
+    overflow: auto;
+}
+
+.content a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+footer {
+    background-color: #94B0B7;
+    color: #015c92;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #015c92;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contact img {
+    width: 60px;
+    height: auto;
+}
+
